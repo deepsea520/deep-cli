@@ -1,0 +1,22 @@
+{
+  "name": "@deep-cli/log",
+  "version": "1.0.0",
+  "description": "deep-cli log",
+  "author": "Levi <397104805@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@deep-cli/log.test.js"
+  }
+}

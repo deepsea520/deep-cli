@@ -1,0 +1,35 @@
+{
+  "name": "@deep-cli/cli",
+  "version": "1.0.0",
+  "description": "deep-cli cli",
+  "author": "Levi <397104805@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "deep-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@deep-cli/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.7",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.8",
+    "user-home": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
